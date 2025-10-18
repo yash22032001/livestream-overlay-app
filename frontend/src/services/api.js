@@ -1,7 +1,9 @@
 import axios from "axios";
 
-const API_BASE_URL = "http://127.0.0.1:5001/api"; 
-
+// 🔹 Automatically picks correct backend (Render for live, localhost for dev)
+const API_BASE_URL =
+  import.meta.env.VITE_API_BASE || "http://127.0.0.1:5001/api";
+  
 export const api = axios.create({
   baseURL: API_BASE_URL,
   headers: { "Content-Type": "application/json" } 

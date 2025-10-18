@@ -1644,3 +1644,33 @@ TypeError: Object of type ObjectId is not JSON serializable
 2025-10-18 12:47:25,379 - INFO - 127.0.0.1 - - [18/Oct/2025 12:47:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
 2025-10-18 13:53:41,238 - INFO -  * Detected change in 'D:\\Yash\\livestream-overlay-app\\backend\\app.py', reloading
 2025-10-18 13:53:42,435 - INFO -  * Restarting with stat
+2025-10-18 13:53:49,567 - INFO - App started and logging initialized!
+2025-10-18 13:53:49,621 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.29.113:5001
+2025-10-18 13:53:49,621 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-18 13:53:49,625 - INFO -  * Restarting with stat
+2025-10-18 13:53:50,986 - INFO - App started and logging initialized!
+2025-10-18 13:53:51,029 - WARNING -  * Debugger is active!
+2025-10-18 13:53:51,039 - INFO -  * Debugger PIN: 467-333-714
+2025-10-18 14:47:49,843 - INFO - App started and logging initialized!
+2025-10-18 14:47:49,911 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.198.57.22:5001
+2025-10-18 14:47:49,911 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-18 14:47:49,915 - INFO -  * Restarting with stat
+2025-10-18 14:47:51,583 - INFO - App started and logging initialized!
+2025-10-18 14:47:51,623 - WARNING -  * Debugger is active!
+2025-10-18 14:47:51,630 - INFO -  * Debugger PIN: 467-333-714
+2025-10-18 15:38:51,962 - INFO - App started and logging initialized!
+2025-10-18 15:38:52,022 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.198.57.22:5001
+2025-10-18 15:38:52,023 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-18 15:38:52,026 - INFO -  * Restarting with stat
+2025-10-18 15:38:53,477 - INFO - App started and logging initialized!
+2025-10-18 15:38:53,518 - WARNING -  * Debugger is active!
+2025-10-18 15:38:53,526 - INFO -  * Debugger PIN: 467-333-714

@@ -17,7 +17,15 @@ app = Flask(__name__)
 #  FIXED CORS configuration (full support for React frontend)
 CORS(
     app,
-    resources={r"/api/*": {"origins": ["http://localhost:5173", "http://127.0.0.1:5173"]}},
+    resources={
+        r"/api/*": {
+            "origins": [
+                "http://localhost:5173",
+                "http://127.0.0.1:5173",
+                "https://strong-creponne-ecd00e.netlify.app"  # ✅ Netlify frontend
+            ]
+        }
+    },
     supports_credentials=True,
 )
 
