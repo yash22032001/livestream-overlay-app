@@ -1696,3 +1696,25 @@ TypeError: Object of type ObjectId is not JSON serializable
 2025-10-19 19:52:21,751 - INFO -  * Debugger PIN: 467-333-714
 2025-10-19 19:52:41,799 - INFO - 127.0.0.1 - - [19/Oct/2025 19:52:41] "GET / HTTP/1.1" 200 -
 2025-10-19 19:52:41,892 - INFO - 127.0.0.1 - - [19/Oct/2025 19:52:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-19 20:32:36,955 - INFO - App started and logging initialized!
+2025-10-19 20:32:37,011 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.29.113:5001
+2025-10-19 20:32:37,011 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-19 20:32:37,015 - INFO -  * Restarting with stat
+2025-10-19 20:32:38,242 - INFO - App started and logging initialized!
+2025-10-19 20:32:38,284 - WARNING -  * Debugger is active!
+2025-10-19 20:32:38,292 - INFO -  * Debugger PIN: 467-333-714
+2025-10-19 20:32:41,788 - INFO - 192.168.29.113 - - [19/Oct/2025 20:32:41] "GET / HTTP/1.1" 200 -
+2025-10-19 20:32:42,031 - INFO - 192.168.29.113 - - [19/Oct/2025 20:32:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-19 20:48:17,899 - INFO - App started and logging initialized!
+2025-10-19 20:48:17,956 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.29.113:5001
+2025-10-19 20:48:17,956 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-19 20:48:17,960 - INFO -  * Restarting with stat
+2025-10-19 20:48:19,792 - INFO - App started and logging initialized!
+2025-10-19 20:48:19,848 - WARNING -  * Debugger is active!
+2025-10-19 20:48:19,857 - INFO -  * Debugger PIN: 467-333-714

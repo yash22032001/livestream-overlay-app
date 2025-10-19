@@ -22,7 +22,7 @@ CORS(
             "origins": [
                 "http://localhost:5173",
                 "http://127.0.0.1:5173",
-                "https://strong-creponne-ecd00e.netlify.app"  # ✅ Netlify frontend
+                "https://livestream-overlay.netlify.app"  #  Netlify frontend
             ]
         }
     },
