@@ -1674,3 +1674,25 @@ TypeError: Object of type ObjectId is not JSON serializable
 2025-10-18 15:38:53,477 - INFO - App started and logging initialized!
 2025-10-18 15:38:53,518 - WARNING -  * Debugger is active!
 2025-10-18 15:38:53,526 - INFO -  * Debugger PIN: 467-333-714
+2025-10-18 16:11:25,762 - INFO - App started and logging initialized!
+2025-10-18 16:11:25,870 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.29.113:5001
+2025-10-18 16:11:25,871 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-18 16:11:25,875 - INFO -  * Restarting with stat
+2025-10-18 16:11:27,806 - INFO - App started and logging initialized!
+2025-10-18 16:11:27,853 - WARNING -  * Debugger is active!
+2025-10-18 16:11:27,863 - INFO -  * Debugger PIN: 467-333-714
+2025-10-19 19:52:19,130 - INFO - App started and logging initialized!
+2025-10-19 19:52:19,414 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.29.113:5001
+2025-10-19 19:52:19,414 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-19 19:52:19,420 - INFO -  * Restarting with stat
+2025-10-19 19:52:21,683 - INFO - App started and logging initialized!
+2025-10-19 19:52:21,738 - WARNING -  * Debugger is active!
+2025-10-19 19:52:21,751 - INFO -  * Debugger PIN: 467-333-714
+2025-10-19 19:52:41,799 - INFO - 127.0.0.1 - - [19/Oct/2025 19:52:41] "GET / HTTP/1.1" 200 -
+2025-10-19 19:52:41,892 - INFO - 127.0.0.1 - - [19/Oct/2025 19:52:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -

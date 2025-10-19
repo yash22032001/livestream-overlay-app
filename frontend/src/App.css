@@ -1,43 +1,110 @@
+/* Root container */
 #root {
-  max-width: 1280px;
+  width: 100%;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 2rem 0;
   text-align: center;
   font-family: "Poppins", sans-serif;
+  background-color: #f2f6fc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* Overlay form styling */
+.overlay-form {
+  background: linear-gradient(135deg, #f9f9f9, #eef6ff);
+  padding: 25px 30px;
+  border-radius: 16px;
+  margin: 20px auto;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  width: 85%;
+  max-width: 650px;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.overlay-form h2 {
+  text-align: center;
+  color: #003366;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.form-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Inputs */
+.overlay-form input,
+.overlay-form select {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #333;
+  background-color: white;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.overlay-form input:focus,
+.overlay-form select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.4);
+}
+
+/* Grid layout for X, Y, Width, Height inputs */
+.grid-inputs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+  width: 100%;
+}
+
+/* Button */
+.overlay-form button {
+  padding: 12px;
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background 0.3s ease, transform 0.2s ease;
+  width: 100%;
+}
+
+.overlay-form button:hover {
+  background: linear-gradient(135deg, #0056b3, #003d80);
+  transform: scale(1.03);
+}
+
+/* 📱 Responsive Fix */
+@media (min-width: 768px) {
+  .grid-inputs {
+    grid-template-columns: repeat(2, 1fr); /* Laptop: 2 columns */
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (max-width: 767px) {
+  .grid-inputs {
+    grid-template-columns: 1fr 1fr; /* Mobile: perfect 2x2 grid */
   }
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+  .overlay-form {
+    width: 90%;
+    padding: 20px;
   }
-}
 
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+  .overlay-form h2 {
+    font-size: 1.4rem;
+  }
 }
